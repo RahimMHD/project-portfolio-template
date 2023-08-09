@@ -311,8 +311,8 @@ ul {
 /* end the header  */
 /* start lending page  */
 .lending {
-  padding: 10px 0 30px;
-  margin: 40px auto;
+  padding: 0px 0 30px;
+  margin: 30px auto;
   position: relative;
 }
 
@@ -330,7 +330,7 @@ ul {
 }
 
 .lending .container {
-  padding: 40px 0 60px;
+  padding: 0px 0 60px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -356,7 +356,7 @@ ul {
 
 .lending .container .info h1 {
   width: 355px;
-  font-size: 90px;
+  font-size: 60px;
   margin: 0;
   letter-spacing: -2px;
   transition: 300ms ease-in-out;
