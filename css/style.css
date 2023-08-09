@@ -355,6 +355,7 @@ ul {
 }
 
 .lending .container .info h1 {
+  width: 355px;
   font-size: 90px;
   margin: 0;
   letter-spacing: -2px;
@@ -436,13 +437,13 @@ ul {
 }
 
 .lending .container .image .one.move-up {
-  width: 370px;
-  height: 370px;
+  width: 280px;
+  height: 280px;
 }
 
 .lending .container .image .two {
-  top: 170px;
-  right: -70px;
+  top: 140px;
+  right: -40px;
   background: rgb(2, 0, 36);
   background: linear-gradient(90deg,
       rgb(80, 73, 215) 0%,
@@ -451,60 +452,60 @@ ul {
 }
 
 .lending .container .image .two.move-up {
-  width: 370px;
-  height: 370px;
+  width: 270px;
+  height: 270px;
 }
 
 .lending .container .image .three {
-  top: -40px;
+  top: -70px;
   right: 160px;
   background: rgb(4, 0, 84);
 }
 
 .lending .container .image .three.move-up {
-  width: 470px;
-  height: 470px;
+  width: 410px;
+  height: 410px;
 }
 
 .lending .container .image .four {
   top: -40px;
-  right: -150px;
+  right: -30px;
   background: rgba(0, 212, 255, 1);
 }
 
 .lending .container .image .four.move-up {
+  width: 410px;
+  height: 410px;
+}
+
+.lending .container .image .five {
+  top: -80px;
+  right: 40px;
+}
+
+.lending .container .image .five.move-up {
   width: 470px;
   height: 470px;
 }
 
-.lending .container .image .five {
-  top: -70px;
-  right: -40px;
-}
-
-.lending .container .image .five.move-up {
-  width: 600px;
-  height: 600px;
-}
-
 .lending .container .image .sex {
   top: 0px;
-  right: -140px;
+  right: -50px;
 }
 
 .lending .container .image .sex.move-up {
-  width: 140px;
-  height: 140px;
+  width: 100px;
+  height: 100px;
 }
 
 .lending .container .image .seven {
-  top: 370px;
-  right: 540px;
+  top: 330px;
+  right: 460px;
 }
 
 .lending .container .image .seven.move-up {
-  width: 140px;
-  height: 140px;
+  width: 100px;
+  height: 100px;
 }
 
 .lending .container .image .container-image {
@@ -519,7 +520,7 @@ ul {
 }
 
 .lending .container .image .container-image.move-up {
-  width: 600px;
+  width: 460px;
 }
 
 @media (max-width: 992px) {
