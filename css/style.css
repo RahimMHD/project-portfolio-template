@@ -426,7 +426,7 @@ ul {
 }
 
 .lending .container .image .one {
-  top: 150px;
+  top: 160px;
   right: 240px;
   background: rgb(2, 0, 36);
   background: linear-gradient(90deg,
@@ -442,7 +442,7 @@ ul {
 }
 
 .lending .container .image .two {
-  top: 140px;
+  top: 160px;
   right: -40px;
   background: rgb(2, 0, 36);
   background: linear-gradient(90deg,
@@ -457,7 +457,7 @@ ul {
 }
 
 .lending .container .image .three {
-  top: -70px;
+  top: -30px;
   right: 160px;
   background: rgb(4, 0, 84);
 }
@@ -468,7 +468,7 @@ ul {
 }
 
 .lending .container .image .four {
-  top: -40px;
+  top: 0px;
   right: -30px;
   background: rgba(0, 212, 255, 1);
 }
@@ -479,7 +479,7 @@ ul {
 }
 
 .lending .container .image .five {
-  top: -80px;
+  top: -40px;
   right: 40px;
 }
 
@@ -531,15 +531,15 @@ ul {
 
 @keyframes lending {
   0% {
-    bottom: 0;
+    bottom: -30px;
   }
 
   50% {
-    bottom: 70px;
+    bottom: 40px;
   }
 
   100% {
-    bottom: 0px;
+    bottom: -30px;
   }
 }
 
