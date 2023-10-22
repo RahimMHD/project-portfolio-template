@@ -1,6 +1,6 @@
 
 
-const lendingContainer = document.qeurySelector(".lending .container");
+const lendingContainer = document.querySelector(".lending .container");
 const containerImage = document.getElementById("container-image");
 
 const containerImageOne = document.querySelector(".lending .container .image .one");
