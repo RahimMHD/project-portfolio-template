@@ -1,5 +1,6 @@
 
 
+const lendingContainer = document.qeurySelector(".lending .container");
 const containerImage = document.getElementById("container-image");
 
 const containerImageOne = document.querySelector(".lending .container .image .one");
@@ -186,7 +187,10 @@ const speed = 10;
 statsValue.forEach(item => updateStateObserv.observe(item));
 
 
-
+window.addEventListener('scroll', () => {
+  let value = window.scrollY * 0.09;
+  lendingContainer.style.transform = `prespective(2000px) rotateX(${value}deg)`
+})
 
 
 

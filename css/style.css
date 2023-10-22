@@ -156,6 +156,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Dancing Script', cursive;
 }
 
 @media (max-width: 767px) {
@@ -334,6 +335,8 @@ ul {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  transform-origin: top center;
+  transform: translateY(70px) perspective(2000px);
 }
 
 @media (max-width: 992px) {
@@ -525,6 +528,9 @@ ul {
 
 @media (max-width: 992px) {
   .lending .container .image .container-image {
+    display: none;
+  }
+  .lending .container .image .background {
     display: none;
   }
 }
