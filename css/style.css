@@ -332,6 +332,7 @@ ul {
 
 .lending .container .info {
     flex: 1;
+    max-width: 300px;
 }
 
 @media (max-width: 992px) {
